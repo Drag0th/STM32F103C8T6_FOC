@@ -390,6 +390,10 @@
     [
       "5ec80a04-9e83-4bdf-a87a-d73d4281228e",
       "MCU_Peripherals"
+    ],
+    [
+      "4729f1f1-a275-4a35-9436-08a1467f1373",
+      "Power_Rail"
     ]
   ],
   "text_variables": {}

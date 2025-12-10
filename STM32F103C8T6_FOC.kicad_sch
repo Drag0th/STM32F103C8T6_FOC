@@ -1211,6 +1211,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aafa4cd-0c5e-4d93-beb2-c1992411561a")
+	)
+	(wire
+		(pts
 			(xy 53.34 33.02) (xy 49.53 33.02)
 		)
 		(stroke
@@ -1281,6 +1291,46 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb2e846-a286-442e-a79c-43a30ceceba9")
+	)
+	(wire
+		(pts
+			(xy 102.87 27.94) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516051ea-872f-4845-8916-478170ddc03e")
+	)
+	(wire
+		(pts
+			(xy 102.87 22.86) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ade074-aeda-4ed6-83ba-54894e38fff7")
+	)
+	(wire
+		(pts
+			(xy 102.87 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dba275-1556-4c90-9c2b-559adf5a0eaa")
+	)
+	(wire
+		(pts
 			(xy 80.01 105.41) (xy 88.9 105.41)
 		)
 		(stroke
@@ -1298,16 +1348,6 @@
 			(type default)
 		)
 		(uuid "75c6db07-372a-48de-81bc-a20835d753b3")
-	)
-	(wire
-		(pts
-			(xy 21.59 54.61) (xy 29.21 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5dfdd0-da58-4fca-bd64-178d202272c5")
 	)
 	(wire
 		(pts
@@ -1371,6 +1411,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 40.64) (xy 111.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afeae96-24e7-43e2-9e3c-e98041fe2ef6")
+	)
+	(wire
+		(pts
 			(xy 53.34 33.02) (xy 57.15 33.02)
 		)
 		(stroke
@@ -1401,6 +1451,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 54.61) (xy 29.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a46b65-b4ac-43df-87b8-4a2542430141")
+	)
+	(wire
+		(pts
 			(xy 53.34 34.29) (xy 53.34 33.02)
 		)
 		(stroke
@@ -1418,6 +1478,16 @@
 			(type default)
 		)
 		(uuid "c1f6344d-d532-42da-9fc8-14b5c6257a35")
+	)
+	(wire
+		(pts
+			(xy 80.01 64.77) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d469c4cf-acc7-4990-8204-d6e3fed96194")
 	)
 	(wire
 		(pts
@@ -1441,13 +1511,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 54.61) (xy 21.59 55.88)
+			(xy 102.87 33.02) (xy 111.76 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb325f44-423a-4735-9811-a6a0db7f4d0f")
+		(uuid "df35b284-7473-4d1e-b45a-dc9cc546b011")
+	)
+	(wire
+		(pts
+			(xy 102.87 35.56) (xy 111.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b518a3-030c-47c0-b921-a2602df955c0")
 	)
 	(wire
 		(pts
@@ -1458,6 +1538,16 @@
 			(type default)
 		)
 		(uuid "f71e55fd-905a-421e-bbf1-b6d1e738f28e")
+	)
+	(wire
+		(pts
+			(xy 102.87 38.1) (xy 111.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b39cd8-4c08-4785-a18c-eaa25e6cfbfe")
 	)
 	(rectangle
 		(start 17.78 17.78)
@@ -1507,6 +1597,42 @@
 		)
 		(uuid "5febe28b-371a-4f4f-8a1e-07a6ea830ed1")
 	)
+	(label "USB0_D-"
+		(at 102.87 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c377480-c879-4e29-b2c2-49ff75790c52")
+	)
+	(label "NRST"
+		(at 102.87 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f2044a4-7090-44a9-b787-761ec76ecc8d")
+	)
+	(label "OSC_OUT"
+		(at 102.87 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ba72086-51dc-492e-8e6b-f9bcc25789cf")
+	)
 	(label "OSC_IN"
 		(at 88.9 102.87 180)
 		(effects
@@ -1519,7 +1645,7 @@
 		)
 		(uuid "912d230b-2f3f-492f-be90-27f9a8683747")
 	)
-	(label "USB_PD"
+	(label "USB0_D+"
 		(at 20.32 90.17 0)
 		(effects
 			(font
@@ -1531,7 +1657,31 @@
 		)
 		(uuid "91a0c4a0-382b-45ee-94fe-a73c29ad7593")
 	)
-	(label "USB_DM"
+	(label "BOOT1"
+		(at 102.87 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0e85742-3826-4db7-b26e-27fddf707f2d")
+	)
+	(label "BOOT1"
+		(at 86.36 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4e156b3-0f7d-4125-a749-8d673203f4dc")
+	)
+	(label "USB0_D-"
 		(at 20.32 87.63 0)
 		(effects
 			(font
@@ -1555,6 +1705,54 @@
 		)
 		(uuid "c4dc7e56-001e-45ae-a805-401ee45bb859")
 	)
+	(label "BOOT0"
+		(at 102.87 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6f72a2e-e198-4449-a716-25014e62d2e4")
+	)
+	(label "OSC_IN"
+		(at 102.87 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e439b28c-ef42-4cfd-a4e1-77d71697b2f9")
+	)
+	(label "SWCLK"
+		(at 102.87 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e71343ec-cb0c-431c-99db-593df7c4f224")
+	)
+	(label "BOOT0"
+		(at 22.86 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef84720a-9e68-415f-9679-9c417fd88c8b")
+	)
 	(label "OSC_OUT"
 		(at 88.9 105.41 180)
 		(effects
@@ -1566,6 +1764,30 @@
 			(justify right bottom)
 		)
 		(uuid "f3680d6a-b1ad-41a2-9a42-f04316e397f1")
+	)
+	(label "SWDIO"
+		(at 102.87 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f45da2e0-a546-415c-9ad6-b4b2800dbdc1")
+	)
+	(label "USB0_D+"
+		(at 102.87 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd13b8b8-3dd6-448b-9db9-495dc39053fa")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1694,72 +1916,6 @@
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 21.59 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c4b9f64-3e78-44ee-be9c-a67fc236b1d3")
-		(property "Reference" "#PWR020"
-			(at 21.59 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f773ad-8ab0-48a6-8c3f-435e5058db19")
-		)
-		(instances
-			(project "STM32F103C8T6_FOC"
-				(path "/d228dd74-472e-4320-b112-509b57639e8e"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2040,8 +2196,47 @@
 		)
 	)
 	(sheet
-		(at 124.46 44.45)
-		(size 26.67 22.86)
+		(at 135.89 21.59)
+		(size 15.24 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4729f1f1-a275-4a35-9436-08a1467f1373")
+		(property "Sheetname" "Power_Rail"
+			(at 135.89 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Rail.kicad_sch"
+			(at 135.89 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 21.59)
+		(size 16.51 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2052,7 +2247,7 @@
 		)
 		(uuid "5ec80a04-9e83-4bdf-a87a-d73d4281228e")
 		(property "Sheetname" "MCU_Peripherals"
-			(at 124.46 43.7384 0)
+			(at 111.76 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2256,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_Peripherals.kicad_sch"
-			(at 124.46 67.8946 0)
+			(at 111.76 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,6 +2264,96 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "BOOT1" input
+			(at 111.76 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b30eeb0-13d4-4ca8-9d17-8fd6c30e9150")
+		)
+		(pin "BOOT0" input
+			(at 111.76 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1d6d2e4e-a4a3-4c90-813a-2730796ed77f")
+		)
+		(pin "USB_D+" input
+			(at 111.76 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e98a8c9d-3676-4533-94e0-672f5853f080")
+		)
+		(pin "USB_D-" input
+			(at 111.76 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4d40162-0697-48ea-bc88-1ae77b258830")
+		)
+		(pin "NRST" input
+			(at 111.76 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b252d4a5-37dc-4906-84bc-28852307277d")
+		)
+		(pin "SWCLK" input
+			(at 111.76 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f76c18e-88a5-416d-8d77-cb6006539776")
+		)
+		(pin "SWDIO" input
+			(at 111.76 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "138f0787-b286-4fab-aa66-51ee76ec0190")
+		)
+		(pin "OSC_OUT" output
+			(at 111.76 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa7cdccb-18ec-4b6c-b3b0-589b380ba580")
+		)
+		(pin "OSC_IN" output
+			(at 111.76 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbc9e09d-c9dd-4a9a-9d3d-955d8bd371ac")
 		)
 		(instances
 			(project "STM32F103C8T6_FOC"
