@@ -2363,6 +2363,45 @@
 			)
 		)
 	)
+	(sheet
+		(at 156.21 21.59)
+		(size 21.59 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f4cb930-46c4-4f1a-877a-3e5b72f0a3b5")
+		(property "Sheetname" "Stepper_Motor_Control"
+			(at 156.21 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stepper_Motor_Control.kicad_sch"
+			(at 156.21 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

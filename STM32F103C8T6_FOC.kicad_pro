@@ -394,6 +394,10 @@
     [
       "4729f1f1-a275-4a35-9436-08a1467f1373",
       "Power_Rail"
+    ],
+    [
+      "5f4cb930-46c4-4f1a-877a-3e5b72f0a3b5",
+      "Stepper_Motor_Control"
     ]
   ],
   "text_variables": {}
