@@ -2622,6 +2622,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 83.82) (xy 205.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0087109f-1c08-4721-a53c-daafe3da32fb")
+	)
+	(wire
+		(pts
 			(xy 158.75 26.67) (xy 153.67 26.67)
 		)
 		(stroke
@@ -2639,6 +2649,16 @@
 			(type default)
 		)
 		(uuid "05863225-f877-49d4-b02d-2758487b7e02")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cebd70-d8aa-4c38-8e0f-e7fbfe1ebe91")
 	)
 	(wire
 		(pts
@@ -2732,6 +2752,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 69.85) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2879133c-0d67-4c20-b16f-23332d9843bf")
+	)
+	(wire
+		(pts
 			(xy 50.8 81.28) (xy 50.8 104.14)
 		)
 		(stroke
@@ -2739,6 +2769,16 @@
 			(type default)
 		)
 		(uuid "2a2c64e9-d9bc-4737-8a5c-f6b4bfb080ba")
+	)
+	(wire
+		(pts
+			(xy 189.23 83.82) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c069a3f-0521-45e4-a73c-a8a780e268d8")
 	)
 	(wire
 		(pts
@@ -2859,6 +2899,16 @@
 			(type default)
 		)
 		(uuid "66d769be-94c7-4cef-8d0c-41cfc49fdba8")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b359b1c-0129-41e1-9675-a409f7c23acb")
 	)
 	(wire
 		(pts
@@ -3079,6 +3129,16 @@
 			(type default)
 		)
 		(uuid "a5d80946-2827-486c-8d1b-bd9d173209e8")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a792abe0-b14f-4c0f-9fae-4b9f05a1a96e")
 	)
 	(wire
 		(pts
@@ -3505,6 +3565,18 @@
 		(uuid aef8c8b4-2cef-4923-82d0-6b3509cfa11e)
 	)
 	(rectangle
+		(start 177.8 63.5)
+		(end 213.36 87.63)
+		(stroke
+			(width 0.508)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b17b6d5e-adc8-41fb-95ee-52efcb8edcaa)
+	)
+	(rectangle
 		(start 15.24 19.05)
 		(end 71.12 49.53)
 		(stroke
@@ -3600,6 +3672,18 @@
 		)
 		(uuid "a74c7b20-9378-4d10-ad9a-4689bedd0115")
 	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 181.102 60.96 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ca2a5cab-1d1c-4ee5-aa8a-76fae2a74a3e")
+	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 18.796 60.452 0)
@@ -3665,6 +3749,19 @@
 		)
 		(uuid "0f67c882-c041-4c42-96cd-384357762b52")
 	)
+	(hierarchical_label "SDA"
+		(shape passive)
+		(at 189.23 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "2e5ebe82-2f5d-40bd-b185-cb4a37227bd0")
+	)
 	(hierarchical_label "BOOT1"
 		(shape input)
 		(at 157.48 82.55 270)
@@ -3712,6 +3809,19 @@
 			(justify left)
 		)
 		(uuid "8c6892cb-d8fd-4c08-924e-8a6a105ac864")
+	)
+	(hierarchical_label "SCL"
+		(shape passive)
+		(at 189.23 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "ca61ad2e-5766-4871-b2a4-ef2e94f2167d")
 	)
 	(hierarchical_label "BOOT0"
 		(shape input)
@@ -5644,6 +5754,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 196.85 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71d3088f-7e6c-4c9b-9e83-9262c2dcfe5c")
+		(property "Reference" "R?"
+			(at 199.39 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 199.39 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.072 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e8597f-f8d7-41f4-b25c-97ab0c2ff87f")
+		)
+		(pin "2"
+			(uuid "e8cf700e-4b60-4545-ab08-8643bfa30567")
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/5ec80a04-9e83-4bdf-a87a-d73d4281228e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 238.76 41.91 0)
 		(unit 1)
@@ -6093,6 +6272,75 @@
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/5ec80a04-9e83-4bdf-a87a-d73d4281228e"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "856dcaba-93ae-42ed-a654-2b75d1522390")
+		(property "Reference" "R?"
+			(at 208.28 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 208.28 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.962 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18985cd2-7412-4e1d-aad2-e3f9e7912a26")
+		)
+		(pin "2"
+			(uuid "971f2435-d372-44c1-8340-70b4104ab49a")
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/5ec80a04-9e83-4bdf-a87a-d73d4281228e"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -7124,6 +7372,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 205.74 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e102dace-0231-481b-bdd3-1ca2d900e067")
+		(property "Reference" "#PWR074"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 200.914 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27e69b17-8bc8-4d8e-a55b-5bc92c6e4208")
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/5ec80a04-9e83-4bdf-a87a-d73d4281228e"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 33.02 0)
 		(unit 1)
@@ -7531,6 +7844,71 @@
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/5ec80a04-9e83-4bdf-a87a-d73d4281228e"
 					(reference "Y?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 196.85 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad58672-733b-46cc-85d3-46fba3e5dd2c")
+		(property "Reference" "#PWR073"
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 192.024 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b2a8e82-8bdc-43f2-97ac-7c4b88a5b565")
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/5ec80a04-9e83-4bdf-a87a-d73d4281228e"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

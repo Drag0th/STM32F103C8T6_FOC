@@ -1321,6 +1321,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 74.93) (xy 86.36 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8d2b99-f4b4-41d9-8b0f-22d9af62ddba")
+	)
+	(wire
+		(pts
 			(xy 102.87 25.4) (xy 111.76 25.4)
 		)
 		(stroke
@@ -1441,6 +1451,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 77.47) (xy 86.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abf1729-605a-4394-909a-e68b612b30dc")
+	)
+	(wire
+		(pts
 			(xy 49.53 31.75) (xy 49.53 33.02)
 		)
 		(stroke
@@ -1458,6 +1478,16 @@
 			(type default)
 		)
 		(uuid "b8a46b65-b4ac-43df-87b8-4a2542430141")
+	)
+	(wire
+		(pts
+			(xy 111.76 45.72) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde30618-605e-4465-8ee3-e7abf10f2f17")
 	)
 	(wire
 		(pts
@@ -1488,6 +1518,16 @@
 			(type default)
 		)
 		(uuid "d469c4cf-acc7-4990-8204-d6e3fed96194")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d677e2d6-0f03-4754-b431-6d7fec8b1e74")
 	)
 	(wire
 		(pts
@@ -1573,6 +1613,18 @@
 		)
 		(uuid "19550eb2-b5d9-40c7-9653-5b3c67267763")
 	)
+	(label "SDA"
+		(at 102.87 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a3b65e1-7f7f-40be-8065-c1370be5ca1e")
+	)
 	(label "SWDIO"
 		(at 20.32 92.71 0)
 		(effects
@@ -1585,6 +1637,18 @@
 		)
 		(uuid "2bca50db-f9e3-4430-af4c-02f0ebebefbf")
 	)
+	(label "SCL"
+		(at 102.87 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "46c03b5a-29bf-4a92-bfb6-d4622c841e36")
+	)
 	(label "NRST"
 		(at 22.86 52.07 0)
 		(effects
@@ -1596,6 +1660,18 @@
 			(justify left bottom)
 		)
 		(uuid "5febe28b-371a-4f4f-8a1e-07a6ea830ed1")
+	)
+	(label "SCL"
+		(at 86.36 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "626a2233-362e-48ac-811e-c977b9241759")
 	)
 	(label "USB0_D-"
 		(at 102.87 30.48 0)
@@ -1680,6 +1756,18 @@
 			(justify right bottom)
 		)
 		(uuid "a4e156b3-0f7d-4125-a749-8d673203f4dc")
+	)
+	(label "SDA"
+		(at 86.36 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "b75df9c2-d7ac-4175-921a-491233b8865e")
 	)
 	(label "USB0_D-"
 		(at 20.32 87.63 0)
@@ -2236,7 +2324,7 @@
 	)
 	(sheet
 		(at 111.76 21.59)
-		(size 16.51 22.86)
+		(size 16.51 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2256,7 +2344,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_Peripherals.kicad_sch"
-			(at 111.76 45.0346 0)
+			(at 111.76 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,6 +2443,26 @@
 			)
 			(uuid "bbc9e09d-c9dd-4a9a-9d3d-955d8bd371ac")
 		)
+		(pin "SCL" passive
+			(at 111.76 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f96d94ef-6e28-48f3-8272-30126f4b8b58")
+		)
+		(pin "SDA" passive
+			(at 111.76 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adf93f29-0700-43d8-8718-d9a73ae0b1ff")
+		)
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e"
@@ -2364,8 +2472,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 21.59)
-		(size 21.59 22.86)
+		(at 111.76 53.34)
+		(size 21.59 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2376,7 +2484,7 @@
 		)
 		(uuid "5f4cb930-46c4-4f1a-877a-3e5b72f0a3b5")
 		(property "Sheetname" "Stepper_Motor_Control"
-			(at 156.21 20.8784 0)
+			(at 111.76 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2493,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_Motor_Control.kicad_sch"
-			(at 156.21 45.0346 0)
+			(at 111.76 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,6 +2501,76 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "UART_RX" bidirectional
+			(at 111.76 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50f86371-9773-49e6-9204-d158dbc8a5b4")
+		)
+		(pin "UART_TX" bidirectional
+			(at 111.76 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7332523f-9307-44b4-abb4-c45b55c96214")
+		)
+		(pin "DIAG" bidirectional
+			(at 111.76 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed0a8d5b-8a05-4c34-9045-7585f106de31")
+		)
+		(pin "STEP" bidirectional
+			(at 111.76 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7baab3e7-7c03-4237-825f-4c916b5dc7c3")
+		)
+		(pin "DIR" bidirectional
+			(at 111.76 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ab8a68c-1c73-43f0-b406-b747111f7220")
+		)
+		(pin "AS5600_SDA" bidirectional
+			(at 111.76 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0bb27d23-e45d-4986-ac8f-1607247f51ba")
+		)
+		(pin "AS5600_SCL" bidirectional
+			(at 111.76 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fad9c09e-335e-4a61-b104-7976fec22c30")
 		)
 		(instances
 			(project "STM32F103C8T6_FOC"
