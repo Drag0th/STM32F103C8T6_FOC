@@ -1,4 +1,4 @@
-24690068120269467
+24693600743410669
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64708,6 +64708,13 @@ SOD323
 2
 2
 KSZ_KiCad_Footprint_Library
+SOIC127P599X175-8N
+
+
+0
+8
+8
+KSZ_KiCad_Footprint_Library
 SOIC127P600X100-9N
 HTSOP-J8-
 Integrated Circuit
@@ -64784,6 +64791,13 @@ TE_2081156-1
 0
 5
 5
+KSZ_KiCad_Footprint_Library
+TVS_PESD2CANFD24V-UX
+
+
+0
+3
+3
 KSZ_KiCad_Footprint_Library
 WE-PD_7332
 
