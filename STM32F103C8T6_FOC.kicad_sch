@@ -1191,6 +1191,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 63.5) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db50d7f-532c-4cc7-903b-22b4198d84df")
+	)
+	(wire
+		(pts
 			(xy 53.34 124.46) (xy 57.15 124.46)
 		)
 		(stroke
@@ -1198,6 +1208,16 @@
 			(type default)
 		)
 		(uuid "153f9a90-41dc-43d2-8050-ecc36dd85103")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 102.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1557a5bd-70ee-4e49-a6d3-0f74316d82a6")
 	)
 	(wire
 		(pts
@@ -1281,6 +1301,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 68.58) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384efb96-55f6-42af-8a42-3a028845571e")
+	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d60e5f-c330-4502-b61e-2744de2503c8")
+	)
+	(wire
+		(pts
 			(xy 21.59 48.26) (xy 21.59 49.53)
 		)
 		(stroke
@@ -1361,6 +1401,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 30.48) (xy 161.29 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b36762-5f02-44bb-a935-e348bb9fe2d6")
+	)
+	(wire
+		(pts
 			(xy 80.01 105.41) (xy 88.9 105.41)
 		)
 		(stroke
@@ -1378,6 +1428,16 @@
 			(type default)
 		)
 		(uuid "75c6db07-372a-48de-81bc-a20835d753b3")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 102.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783b7949-aeec-44b0-a74c-49cccfc3dc90")
 	)
 	(wire
 		(pts
@@ -1441,6 +1501,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 27.94) (xy 161.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874d4887-5400-4978-9ad9-a517fb169ad2")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 111.76 40.64)
 		)
 		(stroke
@@ -1458,6 +1528,26 @@
 			(type default)
 		)
 		(uuid "8f139295-3eea-43bc-a4df-fe5bdfef2d25")
+	)
+	(wire
+		(pts
+			(xy 170.18 25.4) (xy 160.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f46413-53a1-4dc5-8573-ef9acf04ec04")
+	)
+	(wire
+		(pts
+			(xy 170.18 35.56) (xy 157.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cc58b4-0609-4d5a-8e8f-2d17edf90204")
 	)
 	(wire
 		(pts
@@ -1481,6 +1571,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a169a1e-8b32-4d46-99a1-9c983df28f1c")
+	)
+	(wire
+		(pts
 			(xy 80.01 77.47) (xy 86.36 77.47)
 		)
 		(stroke
@@ -1491,6 +1591,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 33.02) (xy 161.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5c6dc3-8f4a-426c-8e9b-8d6325b30f7b")
+	)
+	(wire
+		(pts
 			(xy 49.53 31.75) (xy 49.53 33.02)
 		)
 		(stroke
@@ -1498,6 +1608,16 @@
 			(type default)
 		)
 		(uuid "a5006c72-4363-4b56-9c0f-51959afbca09")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4a555e-1e65-43b3-a9dd-c685a41589f2")
 	)
 	(wire
 		(pts
@@ -1531,6 +1651,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 58.42) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1f6028-7215-49c8-af5c-5e62273420da")
+	)
+	(wire
+		(pts
 			(xy 53.34 34.29) (xy 53.34 33.02)
 		)
 		(stroke
@@ -1538,6 +1668,16 @@
 			(type default)
 		)
 		(uuid "bfdf1a14-0982-4e62-8652-1a034c15305c")
+	)
+	(wire
+		(pts
+			(xy 111.76 50.8) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15ea0e4-420c-4b30-a11b-6ba3c8a2fc81")
 	)
 	(wire
 		(pts
@@ -1601,6 +1741,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 38.1) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2184362-a0d0-407a-a473-bc3aa45d86e4")
+	)
+	(wire
+		(pts
 			(xy 102.87 35.56) (xy 111.76 35.56)
 		)
 		(stroke
@@ -1608,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "f2b518a3-030c-47c0-b921-a2602df955c0")
+	)
+	(wire
+		(pts
+			(xy 170.18 22.86) (xy 160.02 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e56d86-7c66-4538-bc01-d44f729a0e15")
 	)
 	(wire
 		(pts
@@ -2412,7 +2572,7 @@
 	)
 	(sheet
 		(at 111.76 21.59)
-		(size 16.51 27.94)
+		(size 16.51 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2432,7 +2592,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_Peripherals.kicad_sch"
-			(at 111.76 50.1146 0)
+			(at 111.76 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,6 +2711,96 @@
 			)
 			(uuid "adf93f29-0700-43d8-8718-d9a73ae0b1ff")
 		)
+		(pin "G_LED" input
+			(at 111.76 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1db33d88-fe04-493f-8ff3-8ebb6151a22d")
+		)
+		(pin "B_LED" input
+			(at 111.76 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9c93d3c-dbcb-4e85-8f82-d3ebaf465cbd")
+		)
+		(pin "R_LED" input
+			(at 111.76 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "652c2ef9-7dc7-42a7-8dfb-efb06f7be06c")
+		)
+		(pin "CAN_TX" bidirectional
+			(at 111.76 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ea90cb8-f245-4bcc-a8c4-cd6320ce5ae4")
+		)
+		(pin "CAN_RX" bidirectional
+			(at 111.76 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a56a5535-4ef1-4238-9e16-759baea2e197")
+		)
+		(pin "SCL_EEPROM" bidirectional
+			(at 111.76 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "387ffd4a-0abb-48a7-9894-e0c5b4f1fce0")
+		)
+		(pin "WC_EEPROM" input
+			(at 111.76 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ebbcabc-1f89-4dfc-bbdf-ccb4caf481cb")
+		)
+		(pin "SDA_EEPROM" bidirectional
+			(at 111.76 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce9205de-15e1-415f-b9b0-28215c51e7e9")
+		)
+		(pin "U_BUTTON" input
+			(at 111.76 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f60dd878-0185-4bb4-8a7d-64f1fdec5c40")
+		)
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e"
@@ -2560,7 +2810,7 @@
 		)
 	)
 	(sheet
-		(at 111.76 53.34)
+		(at 170.18 21.59)
 		(size 21.59 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -2572,7 +2822,7 @@
 		)
 		(uuid "5f4cb930-46c4-4f1a-877a-3e5b72f0a3b5")
 		(property "Sheetname" "Stepper_Motor_Control"
-			(at 111.76 52.6284 0)
+			(at 170.18 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2831,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_Motor_Control.kicad_sch"
-			(at 111.76 71.7046 0)
+			(at 170.18 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +2841,7 @@
 			)
 		)
 		(pin "UART_RX" bidirectional
-			(at 111.76 54.61 180)
+			(at 170.18 22.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2851,7 @@
 			(uuid "50f86371-9773-49e6-9204-d158dbc8a5b4")
 		)
 		(pin "UART_TX" bidirectional
-			(at 111.76 57.15 180)
+			(at 170.18 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2861,7 @@
 			(uuid "7332523f-9307-44b4-abb4-c45b55c96214")
 		)
 		(pin "DIAG" bidirectional
-			(at 111.76 59.69 180)
+			(at 170.18 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +2871,7 @@
 			(uuid "ed0a8d5b-8a05-4c34-9045-7585f106de31")
 		)
 		(pin "STEP" bidirectional
-			(at 111.76 62.23 180)
+			(at 170.18 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2881,7 @@
 			(uuid "7baab3e7-7c03-4237-825f-4c916b5dc7c3")
 		)
 		(pin "DIR" bidirectional
-			(at 111.76 64.77 180)
+			(at 170.18 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2891,7 @@
 			(uuid "9ab8a68c-1c73-43f0-b406-b747111f7220")
 		)
 		(pin "AS5600_SDA" bidirectional
-			(at 111.76 67.31 180)
+			(at 170.18 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2901,7 @@
 			(uuid "0bb27d23-e45d-4986-ac8f-1607247f51ba")
 		)
 		(pin "AS5600_SCL" bidirectional
-			(at 111.76 69.85 180)
+			(at 170.18 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
