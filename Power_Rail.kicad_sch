@@ -1478,6 +1478,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 80.01 41.91)
@@ -1496,6 +1592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e8102c3-af12-41d4-9c08-7e6c4aa2e819")
+	)
+	(junction
+		(at 119.38 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "414bfd85-aabe-4252-a9ca-6eb9f8d12b85")
 	)
 	(junction
 		(at 105.41 63.5)
@@ -1522,6 +1624,12 @@
 		(uuid "7854d842-96d2-4a4f-adea-c97f9bc539b0")
 	)
 	(junction
+		(at 25.4 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86a0878f-c73d-4152-bf91-4b2ed5c12036")
+	)
+	(junction
 		(at 81.28 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1538,6 +1646,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e40f997f-7ad9-4ea5-b93f-b76aa98db0ce")
+	)
+	(junction
+		(at 63.5 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6919f34-e3d8-43b0-914f-8ceaada5982e")
 	)
 	(junction
 		(at 29.21 59.69)
@@ -1557,6 +1671,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 41.91) (xy 25.4 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a11a711-c8af-4b2b-80ae-2b6ed99a4f10")
+	)
+	(wire
+		(pts
 			(xy 90.17 68.58) (xy 90.17 69.85)
 		)
 		(stroke
@@ -1564,6 +1688,16 @@
 			(type default)
 		)
 		(uuid "0df28bd6-dfcd-4937-a34f-27b75ce1e559")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 63.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5fcb14-7823-45f1-85f8-2f615f4e30d0")
 	)
 	(wire
 		(pts
@@ -1717,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 44.45) (xy 29.21 44.45)
+			(xy 24.13 44.45) (xy 25.4 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1734,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "567641ce-5d75-463c-aafe-e26ea6075cdb")
+	)
+	(wire
+		(pts
+			(xy 119.38 39.37) (xy 119.38 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd61acf-bc4d-4f7b-9228-1643c930504f")
 	)
 	(wire
 		(pts
@@ -1827,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 41.91) (xy 123.19 41.91)
+			(xy 105.41 41.91) (xy 119.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1854,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "872d4203-ed66-4970-81de-61399e05f310")
+	)
+	(wire
+		(pts
+			(xy 119.38 41.91) (xy 123.19 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89165d02-fc1c-4f05-9d97-d33ea0e4d60d")
 	)
 	(wire
 		(pts
@@ -2017,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 44.45) (xy 29.21 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3317273-8587-40b6-b8d2-1dd6504056ae")
+	)
+	(wire
+		(pts
 			(xy 123.19 52.07) (xy 123.19 53.34)
 		)
 		(stroke
@@ -2084,6 +2248,16 @@
 			(type default)
 		)
 		(uuid "d9b3b722-40cf-4226-8e43-b792f378ce90")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d4943b-9b58-4816-b4bb-70fbcc039788")
 	)
 	(wire
 		(pts
@@ -2270,7 +2444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02d873dc-8d3b-448d-8571-a359afed4437")
-		(property "Reference" "C?"
+		(property "Reference" "C19"
 			(at 109.22 61.722 0)
 			(effects
 				(font
@@ -2324,7 +2498,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "C?")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2340,7 +2514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "045025b8-ffc3-4e14-97b1-b1561e967f80")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 180.34 30.4799 0)
 			(effects
 				(font
@@ -2394,7 +2568,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c2dd38-3047-4aed-81b7-49539b0a591e")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 205.74 40.9574 90)
 			(effects
 				(font
@@ -2530,7 +2704,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1714e6c3-952a-4460-bcdf-67a6c7122886")
-		(property "Reference" "C?"
+		(property "Reference" "C15"
 			(at 35.56 54.6099 0)
 			(effects
 				(font
@@ -2599,7 +2773,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "C?")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d9afa5-f4e4-4d69-baa1-a9f8b6b4eaeb")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 120.65 46.9899 0)
 			(effects
 				(font
@@ -2669,7 +2843,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2685,7 +2859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36a7ac00-d94d-4b13-9b13-32ca19ceb988")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 86.36 54.6099 0)
 			(effects
 				(font
@@ -2739,7 +2913,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2754,7 +2928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36ad80ce-3035-4813-adba-219a1edb5825")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 157.48 30.734 0)
 			(effects
 				(font
@@ -2860,7 +3034,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3008,7 +3182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a400520-8835-480b-bad3-2f2dd87d2622")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 120.65 57.1499 0)
 			(effects
 				(font
@@ -3062,7 +3236,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3070,7 +3244,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 27.94 44.45 90)
+		(at 24.13 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3079,7 +3253,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c090ab0-fe63-4734-ba75-1907d3aa71e4")
 		(property "Reference" "#PWR042"
-			(at 31.75 44.45 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3262,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 24.13 44.4499 90)
+			(at 20.32 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 44.45 0)
+			(at 24.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 44.45 0)
+			(at 24.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 27.94 44.45 0)
+			(at 24.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3377,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 68.58 0)
+		(at 63.5 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3212,7 +3386,7 @@
 		(fields_autoplaced yes)
 		(uuid "58b8cebe-f181-4a33-b0ba-fa0de92c6d6f")
 		(property "Reference" "#PWR040"
-			(at 63.5 74.93 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3395,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 73.66 0)
+			(at 63.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 68.58 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 68.58 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,7 +3421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 68.58 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7abfaad7-657f-4541-aad6-82f2a154b4b1")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 41.91 49.784 90)
 			(effects
 				(font
@@ -3394,7 +3568,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3410,7 +3584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83107660-8f89-4100-83b2-bb6a401eee5d")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 199.39 30.4799 0)
 			(effects
 				(font
@@ -3464,7 +3638,73 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "R?")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "870331fb-9bd5-40f8-ad07-da6e5637a107")
+		(property "Reference" "#FLG01"
+			(at 25.4 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d663603-eef5-4694-92b5-6826c631cc7c")
+		)
+		(instances
+			(project ""
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dcd9ea7-5882-47a7-9f08-7af106ae4e63")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 31.75 38.6079 0)
 			(effects
 				(font
@@ -3597,7 +3837,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3613,7 +3853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae7b6b68-3786-4181-b8e6-3a58340c3d79")
-		(property "Reference" "C?"
+		(property "Reference" "C18"
 			(at 101.6 61.976 0)
 			(effects
 				(font
@@ -3667,7 +3907,7 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "C?")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3683,7 +3923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af1d66b1-8cce-4f7f-9f02-f9858804a006")
-		(property "Reference" "C?"
+		(property "Reference" "C14"
 			(at 22.86 54.6099 0)
 			(effects
 				(font
@@ -3737,7 +3977,73 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "C?")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b299a6d4-3c20-42f6-ac60-14a099e97101")
+		(property "Reference" "#FLG02"
+			(at 119.38 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddb138c7-4e15-4fbc-8f94-dce839b2cdaf")
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3753,7 +4059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3470e70-def9-4164-af12-2903b399a307")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 186.69 40.9574 90)
 			(effects
 				(font
@@ -3807,7 +4113,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3890,7 +4196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72d4fe0-d999-432c-8e86-bc7923932e7e")
-		(property "Reference" "C?"
+		(property "Reference" "C16"
 			(at 63.5 21.59 90)
 			(effects
 				(font
@@ -3942,7 +4248,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "C?")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4024,7 +4330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb419708-b2e9-45d6-8a4e-d1c9d64d32a6")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 125.73 36.0679 0)
 			(effects
 				(font
@@ -4075,7 +4381,74 @@
 		(instances
 			(project "STM32F103C8T6_FOC"
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "TP?")
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c44d5404-5e86-4d6c-b7d0-9caf0f774b04")
+		(property "Reference" "#FLG03"
+			(at 67.945 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 69.85 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98e2ee1-e896-4f58-b9b7-b157898112b6")
+		)
+		(instances
+			(project "STM32F103C8T6_FOC"
+				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf5026b0-c59b-40b3-91ca-359c05181c8a")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 90.9955 34.29 0)
 			(effects
 				(font
@@ -4144,7 +4517,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f2ce36-6683-4943-841d-b4f735c67ab5")
-		(property "Reference" "IC?"
+		(property "Reference" "IC1"
 			(at 63.5 34.29 0)
 			(effects
 				(font
@@ -4285,7 +4658,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "IC?")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -4500,7 +4873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7094857-0140-41d6-8ac1-69ab0b8b4e1c")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 87.63 63.4999 0)
 			(effects
 				(font
@@ -4554,7 +4927,7 @@
 		(instances
 			(project ""
 				(path "/d228dd74-472e-4320-b112-509b57639e8e/4729f1f1-a275-4a35-9436-08a1467f1373"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
