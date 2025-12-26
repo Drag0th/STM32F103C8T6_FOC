@@ -1,4 +1,4 @@
-24693600743410669
+24695367514695152
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64665,6 +64665,13 @@ QFN50P500X500X90-29N
 0
 29
 29
+KSZ_KiCad_Footprint_Library
+QFP50P900X900X160-48N
+
+
+0
+48
+48
 KSZ_KiCad_Footprint_Library
 QFP80P900X900X160-32N
 
