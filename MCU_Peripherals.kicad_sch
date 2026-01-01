@@ -5674,7 +5674,7 @@
 		)
 		(uuid "d518fb50-bfef-4572-84c3-6a941af198f6")
 	)
-	(label "CANH"
+	(label "CAN_P"
 		(at 99.06 146.05 0)
 		(effects
 			(font
@@ -5684,7 +5684,7 @@
 		)
 		(uuid "05ccc226-d81e-4f89-b097-b5e5f88ed99e")
 	)
-	(label "CANL"
+	(label "CANL_N"
 		(at 128.27 173.99 0)
 		(effects
 			(font
@@ -5714,7 +5714,7 @@
 		)
 		(uuid "402155cc-6722-4ff9-a466-d904238c0382")
 	)
-	(label "CANL"
+	(label "CAN_N"
 		(at 99.06 153.67 0)
 		(effects
 			(font
@@ -5724,7 +5724,7 @@
 		)
 		(uuid "6fafff2d-0573-4d9e-ae40-c93d76799d01")
 	)
-	(label "CANH"
+	(label "CAN_P"
 		(at 128.27 166.37 0)
 		(effects
 			(font

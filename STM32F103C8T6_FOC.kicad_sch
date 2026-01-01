@@ -1298,10 +1298,6 @@
 		(uuid "00a7c46d-098d-49b7-ac7e-912ea6c9401e")
 	)
 	(no_connect
-		(at 80.01 69.85)
-		(uuid "14ccff47-2303-4e1d-8953-f62cdbd1d534")
-	)
-	(no_connect
 		(at 29.21 105.41)
 		(uuid "1cbb5a04-d846-4748-a983-f60a30797624")
 	)
@@ -1314,12 +1310,16 @@
 		(uuid "2812b5ce-e1d2-4cc4-992a-4735a8ecc72f")
 	)
 	(no_connect
-		(at 80.01 72.39)
-		(uuid "368a46d4-e91a-4501-b4f5-befb1b667fd0")
-	)
-	(no_connect
 		(at 29.21 59.69)
 		(uuid "3eb05a7e-8289-452d-9956-43d766f8e292")
+	)
+	(no_connect
+		(at 80.01 92.71)
+		(uuid "6a1445b6-e861-4c8c-8e53-fad542034f30")
+	)
+	(no_connect
+		(at 80.01 82.55)
+		(uuid "7a8ee479-1811-4298-989e-85af65c17c5e")
 	)
 	(no_connect
 		(at 80.01 62.23)
@@ -1346,6 +1346,10 @@
 		(uuid "d73feee2-991d-47ec-8d9e-5b235969fd70")
 	)
 	(no_connect
+		(at 80.01 97.79)
+		(uuid "dc334553-c0d5-45a7-a7af-039815e9cddc")
+	)
+	(no_connect
 		(at 29.21 62.23)
 		(uuid "e87ac81b-832b-4393-90cf-8643a1d28320")
 	)
@@ -1356,10 +1360,6 @@
 	(no_connect
 		(at 80.01 80.01)
 		(uuid "f2a31016-4da0-468d-b2b1-4f8731c518b1")
-	)
-	(no_connect
-		(at 29.21 97.79)
-		(uuid "ffeaee78-b126-45cc-860c-baad09d04e3e")
 	)
 	(wire
 		(pts
@@ -1453,7 +1453,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 97.79) (xy 88.9 97.79)
+			(xy 80.01 67.31) (xy 88.9 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1593,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 67.31) (xy 92.71 67.31)
+			(xy 29.21 97.79) (xy 16.51 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 88.9 92.71)
+			(xy 80.01 72.39) (xy 88.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 82.55) (xy 92.71 82.55)
+			(xy 80.01 95.25) (xy 92.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 88.9 95.25)
+			(xy 80.01 69.85) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2022,7 @@
 		(uuid "f8b39cd8-4c08-4785-a18c-eaa25e6cfbfe")
 	)
 	(rectangle
-		(start 17.78 17.78)
+		(start 15.24 17.78)
 		(end 93.98 137.16)
 		(stroke
 			(width 0.508)
@@ -2154,19 +2154,19 @@
 		(uuid "20c1f6a7-086f-4ea6-8001-5aff29ac1996")
 	)
 	(label "WC_EEPROM"
-		(at 92.71 67.31 180)
+		(at 16.51 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "20c983cf-3469-46e7-81e4-d639b8ab12b6")
 	)
 	(label "U_BUTTON"
-		(at 92.71 82.55 180)
+		(at 92.71 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,7 +2310,7 @@
 		(uuid "7f2044a4-7090-44a9-b787-761ec76ecc8d")
 	)
 	(label "G_LED"
-		(at 88.9 92.71 180)
+		(at 88.9 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2430,7 +2430,7 @@
 		(uuid "9f03e522-82c8-474e-88aa-0ab0ff10c082")
 	)
 	(label "R_LED"
-		(at 88.9 97.79 180)
+		(at 88.9 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2466,7 @@
 		(uuid "ad73eb6c-5fc3-4d26-8fe4-05fd21a84e1f")
 	)
 	(label "B_LED"
-		(at 88.9 95.25 180)
+		(at 88.9 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
