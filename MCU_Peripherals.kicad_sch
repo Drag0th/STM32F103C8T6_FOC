@@ -7263,7 +7263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30pF"
 			(at 156.21 36.8299 0)
 			(effects
 				(font
@@ -7272,7 +7272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 153.3652 39.37 0)
 			(effects
 				(font
@@ -9905,7 +9905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30pF"
 			(at 132.08 36.8299 0)
 			(effects
 				(font
@@ -9914,7 +9914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.9248 39.37 0)
 			(effects
 				(font

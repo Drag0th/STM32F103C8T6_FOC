@@ -56,16 +56,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.2,
-          "via_gap": 0.2,
-          "width": 0.155
-        },
-        {
-          "gap": 0.105,
-          "via_gap": 0.105,
-          "width": 0.34
         }
       ],
       "drc_exclusions": [],
@@ -89,7 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "holes_co_located": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -116,31 +106,31 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "error",
+        "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "error",
+        "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.1,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.25,
         "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -189,11 +179,9 @@
       ],
       "track_widths": [
         0.0,
-        0.16,
         0.2,
         0.3,
-        0.5,
-        0.8
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -470,17 +458,51 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.165,
+        "line_style": 0,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.15,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.165,
+        "line_style": 0,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.15,
+        "name": "USB_2.0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -494,7 +516,32 @@
       "+3.3V": "rgb(255, 9, 2)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_2.0",
+        "pattern": "/MCU_Peripherals/USB2_D-"
+      },
+      {
+        "netclass": "USB_2.0",
+        "pattern": "/MCU_Peripherals/USB2_D+"
+      },
+      {
+        "netclass": "USB_2.0",
+        "pattern": "/USB0_D-"
+      },
+      {
+        "netclass": "USB_2.0",
+        "pattern": "/USB0_D+"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/MCU_Peripherals/CAN_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/MCU_Peripherals/CAN_N"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
